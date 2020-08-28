@@ -15,19 +15,19 @@ const iceCream = {};
 
 function createMenuItem(label, item, cost, list){
 
-    return label.name = item;
+    label.name = item;
 
-    return label.price = cost;
-
-    return label.category = list;
-  
+    label.price = cost;
+    
+    label.category = list;
+ 
   }
 
-    createMenuItem('pizza', 'Pizza', 20, 'Dinner');
+    createMenuItem(pizza, 'Pizza', 20, 'Dinner');
     
-    createMenuItem('tea', 'Black Tea', 3, 'Drinks');
+    createMenuItem(tea, 'Black Tea', 3, 'Drinks');
     
-    createMenuItem('iceCream', 'Ice Cream', 6, 'Dessert');
+    createMenuItem(iceCream, 'Ice Cream', 6, 'Dessert');
   
 
   console.log(pizza);
